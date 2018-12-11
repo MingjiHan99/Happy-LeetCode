@@ -1,2 +1,3 @@
 # Happy-LeetCode
-Gugugugugugu
+
+You are welcome to criticize my terrible code :)
