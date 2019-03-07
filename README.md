@@ -29,5 +29,6 @@ min_val[n] = min {a[0],a[1], ... ,a[n]}
 #### 198.打家劫舍
 
 DP 
-dp[i] = max(dp[i - 2] + val[i],dp[i - 1])
+dp[i] = max(dp[i - 2] + nums[i],dp[i - 1])
+预处理dp[0],dp[1]
 
