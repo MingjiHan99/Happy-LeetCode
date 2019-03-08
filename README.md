@@ -12,6 +12,12 @@ ans = max{f[i]}
 f[i] = max{s[i] + f[i],s[i]}
 分治也行233333333
 
+### 089.合并两个有序数组
+mergesort 的merge操作
+不过要从第一个数组最后开始，从小到大merge
+可以节省空间
+
+
 ####　121.买卖股票的最佳时机
 
 ans = max(ans,price[i] - min_val[i - 1])
